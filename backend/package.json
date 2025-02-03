@@ -1,0 +1,23 @@
+{
+  "name": "slate-auth-system-backend",
+  "version": "1.0.0",
+  "description": "Backend for Slate Auth System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "latest",
+    "cors": "latest",
+    "dotenv": "latest",
+    "express": "latest",
+    "jsonwebtoken": "latest",
+    "jwt-decode": "^4.0.0",
+    "pg": "latest"
+  },
+  "devDependencies": {
+    "nodemon": "latest"
+  },
+  "type": "module"
+}
